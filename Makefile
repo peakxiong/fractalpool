@@ -37,7 +37,7 @@ TARGETS=$(EXECUTABLES) $(COMPRESSED_EXECUTABLES)
 fractalpool:
 	@echo "Done building."
 	@go build -o $(GOBIN)/fractalpool$(OUTPUT_SUFFIX) $(GOFLAGS)
-	@echo "  $(shell $(GOBIN)/fractalpool -v))"
+	@echo "$(shell $(GOBIN)/fractalpool -v)"
 	@echo "Run \"$(GOBIN)/fractalpool\" to launch."
 
 all: fractalpool
