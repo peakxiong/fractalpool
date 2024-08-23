@@ -4,7 +4,7 @@ testnet.json
 
 /build/_workspace/
 /build/bin/
-
+/logs/*
 .travis.yml
 *.log
 fractalpool
